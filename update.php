@@ -43,7 +43,7 @@
     <title>Simple CRUD</title>
   </head>
   <body>
-    <form action="/update.php?id=<?php echo $results[0]->id; ?>" method="POST">
+    <form action="update.php?id=<?php echo $results[0]->id; ?>" method="POST">
       <input type="hidden" name="_method" value="PUT">
       <label for="first_name">First Name</label><br>
       <input type="text" name="first_name" value="<?php echo $results[0]->first_name; ?>"><br>
