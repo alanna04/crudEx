@@ -1,11 +1,8 @@
 <?php
   require('database.php');
-  // POST
-  // GET
-  // PUT
-  // DELETE
+  //post,get,put,delete
 
-  // Handles POST Request
+  // for POST Request
   if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_GET["id"]) && $_POST["_method"] == "PUT") {
     $first_name = $_POST["first_name"];
     $last_name = $_POST["last_name"];
